@@ -86,3 +86,8 @@ Summary:
 - Negative: 1
 - Neutral: 2
 ```
+## Notes
+- Lexicon: The sentiment lexicon maps words to sentiment scores (positive or negative floats). You can customize it or use external resources like VADER or SentiWordNet.
+- Thresholds: Adjust threshold_positive and threshold_negative in analyzer.analyze() to fine-tune sentiment classification.
+- Corpus: The Corpy class expects a list of strings, where each string is a document.
+
