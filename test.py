@@ -31,3 +31,7 @@ print("----------------")
 sentiments = analyzer.analyze()
 for doc, result in sentiments.items():
     print(f"{doc}: {result['score']} - {result['sentiment']}")
+
+# Print summary
+print("\nSummary:")
+print(analyzer)
